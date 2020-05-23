@@ -10,3 +10,7 @@ acontecer, caso contrário a linguágem acaba se enrolando </p>
 são terríveis na minha opnião, no primeiro commit tem um exemplo no index de como resolver
 a requisições que dependem de outras em tempos diferentes </p>
 
+<h1> Promisse </h1>
+
+<p> Uma forma bem melhor de resolver os objetos funcoes assincronas no javascrip, no commit
+3 temos um arquivo de promisses detalhando seu funcionamento </p> 
