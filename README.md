@@ -14,3 +14,8 @@ a requisições que dependem de outras em tempos diferentes </p>
 
 <p> Uma forma bem melhor de resolver os objetos funcoes assincronas no javascrip, no commit
 3 temos um arquivo de promisses detalhando seu funcionamento </p> 
+
+<h1> Async/Await <h1>
+
+<p> o async await é muito bom para se trabalhar, resolve tudo como promisse mas pro deibaixo dos
+panos, fica um codigo lindo </p>
