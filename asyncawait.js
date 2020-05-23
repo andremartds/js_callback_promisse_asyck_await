@@ -35,10 +35,18 @@ function obterEndereco(idUser, callback) {
 main()
 async function main() {
   try {
+    console.time('medida-tempo')
     const user = await usuario()
-    const telefone = await obterTelefoneUser(user.id)
-    const endereco = await obterEnderecoAsync(user.id)
+    const resultado = await Promise.all([
+      obterTelefoneUser(user.id),
+      obterEnderecoAsync(user.id)
+    ])
+    //const telefone = await obterTelefoneUser(user.id)
+    //const endereco = await obterEnderecoAsync(user.id)
+    const telefone = resultado[0]
+    const endereco = resultado[1]
     console.log(`Nome ${user.nome} Endereco ${endereco.endereco} Telefone ${telefone.telefone}`)
+    console.timeEnd('medida-tempo')
   } catch (error) {
     console.error('error', error)
   }
