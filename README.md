@@ -10,7 +10,7 @@ acontecer, caso contrário a linguágem acaba se enrolando (se perdendo). </p>
 [ Arquivo de Referência ]( https://github.com/andremartds/js_callback_promisse_asyck_await/blob/master/callback.js )
 <h1> Promisse 😎 </h1>
 
-<p> Uma forma bem melhor de resolver objetos e funções assincronas no javascrip, as programação deixam mais clara e intuitiva a nossa lógica. Como o nome já diz ela se trata de uma promessa que pode ser aceita "then" e aceita quantas vezes quisermos, ou seja podemos chamar then de forma encadeada, elas também podem ser recusadas e nesse caso utilizamos o catch </p>
+<p> Uma forma bem melhor de resolver objetos e funções assincronas no javascrip, as promisses deixam mais intuitiva a lógica. Como o nome já diz ela se trata de uma promessa que pode ser aceita "then" e aceita quantas vezes quisermos, ou seja podemos chamar then de forma encadeada, elas também podem ser recusadas e nesse caso utilizamos o catch </p>
 [ Arquivo de Referência ]( https://github.com/andremartds/js_callback_promisse_asyck_await/blob/master/promisses.js )
 
 <h1> Async/Await 😍  </h1>
